@@ -96,7 +96,7 @@ def main():
                    (pattern, err) = proc.communicate()
                    print ('[+] Payload= ' + pattern)
                    print ('You can use the above payload with the "locateeip.py" tool in this repo now.\n
-                   Paste the payload in the place of of the value for the pattern variable in the tool'\n)
+                   Paste the payload in the place of of the value for the PATTERN variable in the tool'\n)
                    locateOffset = raw_input('\n[*] Enter the value of the EIP : ')
                    locateOffset = locateOffset.decode("hex")  
                    locateOffset = locateOffset[::-1]
