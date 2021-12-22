@@ -95,6 +95,8 @@ def main():
                    proc = subprocess.Popen(['cd /usr/share/metasploit-framework/tools/exploit/; ./pattern_create.rb -l %s' % str(counter)], stdout=subprocess.PIPE,                                shell=True)
                    (pattern, err) = proc.communicate()
                    print ('[+] Payload= ' + pattern)
+                   print ('You can use the above payload with the "locateeip.py" tool in this repo now.\n
+                   Paste the payload in the place of of the value for the pattern variable in the tool'\n)
                    locateOffset = raw_input('\n[*] Enter the value of the EIP : ')
                    locateOffset = locateOffset.decode("hex")  
                    locateOffset = locateOffset[::-1]
