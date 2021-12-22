@@ -1,7 +1,7 @@
 #!/usr/bin/python2
 
 #Inspiration for this came from TCM Academy's Practical Ethical Hacking course in the Buffer Overflow section.
-#You can paste the "payload" from simplefuzzer as the value of the "offset" parameter value in this script.
+#You can paste the "payload" from simplefuzzer as the value of the PATTERN parameter value in this script.
 #This will give you the EIP in your debugger program to paste into the promt from the simplefuzzer tool in order to find the offset.
 
 import sys, socket
