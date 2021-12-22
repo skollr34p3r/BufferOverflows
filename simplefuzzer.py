@@ -100,7 +100,7 @@ def main():
                    locateOffset = locateOffset.decode("hex")  
                    locateOffset = locateOffset[::-1]
                    offsetLocation = pattern.find(locateOffset, 0, len(pattern))
-                   print('\n[!] Exact match found at ' + str(offsetLocation) + '!')
+                   print('\n[!] Offset = ' + str(offsetLocation) + '!')
                    break
         s.close()
         time.sleep(.5)
