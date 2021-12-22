@@ -1,4 +1,6 @@
 #!/usr/bin/python2
+#Inspiration for this came from TCM Academy's Practical Ethical Hacking course in the Buffer Overflow section.
+
 import sys, socket
 
 badchars = (
